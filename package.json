@@ -1,0 +1,34 @@
+{
+  "name": "js-appium-android",
+  "version": "1.0.0",
+  "description": "Simple browser and application tests using Appium and WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test:browser": "wdio run ./test/config/wdio.browser.conf.js",
+    "test:app": "wdio run ./test/config/wdio.app.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yojoman/JS-appium-android.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "appium",
+    "android"
+  ],
+  "author": "Pavel Abramuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yojoman/JS-appium-android/issues"
+  },
+  "homepage": "https://github.com/yojoman/JS-appium-android#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.25.4",
+    "chai": "^4.3.6"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.25.4",
+    "@wdio/mocha-framework": "^7.25.4",
+    "@wdio/spec-reporter": "^7.25.4"
+  }
+}
