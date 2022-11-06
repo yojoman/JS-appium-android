@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:browser": "wdio run ./test/config/wdio.browser.conf.js",
-    "test:app": "wdio run ./test/config/wdio.app.conf.js"
+    "test:app": "wdio run ./test/config/wdio.app.conf.js",
+    "appium": "appium --allow-insecure chromedriver_autodownload"
   },
   "repository": {
     "type": "git",
